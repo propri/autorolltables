@@ -6703,6 +6703,19 @@ top.menu = [
     id: "Monsters",
     items: [
       {
+        title: "Races (from different planes)",
+        use:
+          "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
+        main_rolls: [
+          "monsters/races_prime",
+          "monsters/races_other_planes",
+          "monsters/races_upper_planes",
+          "monsters/races_middle_planes",
+          "monsters/races_lower_planes",
+        ],
+        sub_rolls: [],
+      },
+      {
         title: "Animal - Bat",
         use:
           "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
